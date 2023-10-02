@@ -154,6 +154,13 @@ $green : #34A853;
 #headtxt {
   font-family: Product Sans;
   font-size: 80px;
+}
+
+.google-span{
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	
 	&:nth-child(7n+1) { color: $blue; }
 	&:nth-child(7n+2) { color: $red; }
 	&:nth-child(7n+3) { color: $yellow; }
