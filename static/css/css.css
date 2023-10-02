@@ -151,24 +151,12 @@ $red : #EA4335;
 $yellow : #FBBC05;
 $green : #34A853;
 
-#headtxt {
+#headtxt span{
   font-family: Product Sans;
   font-size: 80px;
+  &:nth-child(1) { color: $blue; }
 }
 
-.google-span{
-	display: inline-block;
-	padding: 20px;
-	text-align: center;
-	
-	&:nth-child(7n+1) { color: $blue; }
-	&:nth-child(7n+2) { color: $red; }
-	&:nth-child(7n+3) { color: $yellow; }
-	&:nth-child(7n+4) { color: $blue; }
-	&:nth-child(7n+5) { color: $green; }
-	&:nth-child(7n+6) { color: $red; }
-	&:nth-child(7n+7) { color: $yellow; }
-}
 
 @media only screen and (max-width: 600px) {
   #txt {
