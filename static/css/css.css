@@ -151,10 +151,10 @@ $red : #EA4335;
 $yellow : #FBBC05;
 $green : #34A853;
 
-#headtxt span{
+#headtxt span:nth-child(1) {
   font-family: Product Sans;
   font-size: 80px;
-  &:nth-child(1) { color: $blue; }
+  color: $blue; 
 }
 
 
