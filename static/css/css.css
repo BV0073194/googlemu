@@ -146,10 +146,11 @@ fieldset {
   padding-bottom: 40px;
 }
 
-#headtxt span:nth-child(1) {
+#headtxt span {
   font-family: Product Sans;
   font-size: 80px;
-  color: #4285F4; 
+  &:nth-child(1) { color: #4285F4; }
+  &:nth-child(2) { color: #EA4335; }
 }
 
 
