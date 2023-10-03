@@ -39,37 +39,15 @@
 		</div>
 
 		<div class="center">
-			<h1 id="headtxt"><span>G</span><span>N</span><span>O</span><span>M</span><span>E</span></h1>
-			<forum
-				id="input"
-				onkeydown="if(event.key == 'Enter'){location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`}"
-				onsubmit="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`"
-			>
-				<input id="inputb" placeholder="Search....." />
-				<input
-					id="inputimg"
-					
-					type="image"
-					value="Login"
-					src="/search.svg"
-					height="24"
-					width="24"
-				/>
-				<input type="submit" style="display: none" />
-			</forum>
+			<div>
+        <span>
+        </span>
+      <div>
 			<div class="btns">
 				<!-- idea: maybe include __uv$config.prefix with xor.encode -->
-				<div onclick="location.href='/c.html'" class="crm">
+				<div onclick="history.back()" class="crm">
 					<img class="icn" src="/icon.png" />
-					<a class="btn">Contributors</a>
-				</div>
-				<div onclick="location.href='/experiment.html'" class="crm">
-					<img class="icn" src="/icon.png" />
-					<a class="btn">Test Page</a>
-				</div>
-        <div onclick="location.href='/disclaimer.html'" class="crm">
-					<img class="icn" src="/icon.png" />
-					<a class="btn">Disclaimer</a>
+					<a class="btn">Back</a>
 				</div>
 			</div>
 		</div>
