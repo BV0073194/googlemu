@@ -83,3 +83,7 @@ message = "We see that you are using require(...) inside your code. We currently
 run = ["sh", "-c", "node index.js"]
 deploymentTarget = "gce"
 ignorePorts = false
+
+[auth]
+pageEnabled = false
+buttonEnabled = false
