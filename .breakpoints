@@ -4,8 +4,8 @@
       {
         "id": "c5d7a7a8-3884-4fc6-8d6d-76d3f6bdbf55",
         "line": 2,
-        "version": 295,
-        "index": 29
+        "version": 1,
+        "index": 31
       }
     ],
     "static/internal/newTab/main (copy).html": [
@@ -20,8 +20,8 @@
       {
         "id": "891d28b8-803a-4447-9a7a-d1ededd6040c",
         "line": 149,
-        "version": 154,
-        "index": 4603
+        "version": 1,
+        "index": 5344
       }
     ]
   }
