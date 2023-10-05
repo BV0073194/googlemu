@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+         pkgs.android-tools
          pkgs.zip
          pkgs.nano
          pkgs.busybox

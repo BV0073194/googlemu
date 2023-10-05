@@ -3,5 +3,9 @@
     "description": "A google emulation",
     "repository": "https://github.com/BV0073194/googlemu/",
     "logo": "https://github.com/BV0073194/googlemu/blob/main/static/icon.png?raw=true",
-    "keywords": ["google-gnome"]
+    "keywords": ["google-gnome"],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#252729",
+    "background_color": "#252729"
 }

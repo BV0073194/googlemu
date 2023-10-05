@@ -16,7 +16,7 @@
         -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>New Tab</title>
+		<title>New Tab (EX)</title>
 		<link rel="stylesheet" href="/css/css.css" />
 	</head>
 
@@ -39,16 +39,33 @@
 		</div>
 
 		<div class="center">
-			<div>
-        <span style="color:whitesmoke">Disclaimer:
-This product employs Google's logos, icons, and utilizes their search engine for specific features. It is essential to clarify that while this product interacts with Google's services, it is an independent entity and is not officially affiliated or associated with Google LLC. Any use of Google's assets is purely for functional purposes and should not be interpreted as an endorsement, sponsorship, or partnership with Google LLC.
-        </span>
-      <div>
+			<h1 id="headtxt"><span>G</span><span>N</span><span>O</span><span>M</span><span>E</span></h1>
+			<forum
+				id="input"
+				onkeydown="if(event.key == 'Enter'){location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`}"
+				onsubmit="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`"
+			>
+				<input id="inputb" placeholder="Search....." />
+				<input
+					id="inputimg"
+					onclick="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`"
+					type="image"
+					value="Login"
+					src="/search.svg"
+					height="24"
+					width="24"
+				/>
+				<input type="submit" style="display: none" />
+			</forum>
 			<div class="btns">
 				<!-- idea: maybe include __uv$config.prefix with xor.encode -->
 				<div onclick="history.back()" class="crm">
 					<img class="icn" src="/icon.png" />
 					<a class="btn">Back</a>
+				</div>
+				<div onclick="location.href=`${__uv$config.prefix}${xor.encode('https://www.google.com')}`" class="crm">
+					<img class="icn" src="/icon.png" />
+					<a class="btn">Test Bookmark</a>
 				</div>
 			</div>
 		</div>

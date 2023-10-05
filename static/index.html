@@ -105,7 +105,7 @@
         onclick='newTab("ht://newtab")'>add</button>
       <div class='mock-browser-content'>
         <button id='urlbutton'
-          onclick='document.getElementById(getActiveFrameId()).src = getBack(getActiveFrameId())'><svg
+          onclick='document.getElementsById(getActiveFrameId()).src = getBack(getActiveFrameId())'><svg
             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#757575"
             preserveAspectRatio="xMidYMid meet">
             <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
@@ -153,7 +153,8 @@
         <a class="pointer"
           onclick='toggleId("optionsdrop");document.querySelector("body").requestFullscreen()'>Fullscreen window</a>
         <a class="pointer"
-          onclick='toggleId("optionsdrop");skipAd()'>Skip YT AD</a>
+          onclick='toggleId("optionsdrop");skipAd()'>Skip YT AD</a> <a class="pointer"
+          onclick='toggleId("optionsdrop");skipAd()'>Settings</a>
         <!-- <a class="pointer" onclick='toggleId("optionsdrop", "uadrop");'>Set user agent</a> Disabled until I finish adding support-->
         <a class="pointer" onclick='toggleId("optionsdrop", "searchDrop")'>Set search engine</a>
         <a class="pointer" onclick='inspect(); toggleId("optionsdrop");'>Open devtools</a>

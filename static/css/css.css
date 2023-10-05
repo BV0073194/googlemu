@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-}
 
 body {
   font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
@@ -147,7 +141,7 @@ fieldset {
 }
 
 #headtxt span {
-  font-family: Product Sans;
+  font-family: Open Sans;
   font-size: 80px;
   &:nth-child(1) { color: #4285F4; }
   &:nth-child(2) { color: #EA4335; }
