@@ -19,7 +19,9 @@ if(existsSync("../ssl/key.pem") && existsSync("../ssl/cert.pem")) {
 } else server = createHttpServer();
 
 server.on("request", (req, res) => {
-  if(bare.shouldRoute(req)) bare.routeRequest(req, res); else {
+  if(bare.shouldRoute(req)){
+    bare.routeRequest(req, res); 
+  } else {
     serve(req, res, (err) => {
       res.writeHead(err?.statusCode || 500, null, {
         "Content-Type": "text/plain",
