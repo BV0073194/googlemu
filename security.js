@@ -7,7 +7,7 @@ function generateLockerUI(){
       // Cancel the default action, if needed
       event.preventDefault();
       // Trigger the button element with a click
-      document.getElementById("myBtn").click();
+      document.getElementById("submit_access_code").click();
     }
   });
 }
