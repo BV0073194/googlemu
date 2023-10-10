@@ -81,7 +81,7 @@ message = "We see that you are using require(...) inside your code. We currently
 
 [deployment]
 run = ["sh", "-c", "node index.js"]
-deploymentTarget = "gce"
+deploymentTarget = "cloudrun"
 ignorePorts = false
 
 [auth]
